@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+  .calculator {
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #000000;
+    /* height: 70%; */
+    /* width: 10%; */
+}
+  
+.display {
+    text-align: right;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+ .previous-operaend {
+    color: #5b5b5b;
+    font-size: 1.5rem;
+    height: 25px;
+  }
+ .current-operaend{
+    color: #000000;
+    font-size: 2rem;
+    height: 25px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+
+  #clearbutton {
+    background-color: rgb(114, 0, 0);
+    color: white;
+  }
+
+  #allclearbutton {
+    background-color: rgb(115, 0, 0);
+    color: white;
+  }
+
+    #allclearbutton:hover{
+    /* background-color: rgb(70, 0, 0); */
+    transition: 0.1s;
+  }
+  #allclearbutton:active{
+    background-color:rgb(70, 0, 0);
+    box-shadow: 0 2px #666;
+  }
+    #clearbutton:hover{
+    /* background-color: rgb(70, 0, 0); */
+    transition: 0.1s;
+  }
+  #clearbutton:active{
+    background-color: rgb(70, 0, 0);
+    box-shadow: 0 2px #666;
+  }
+
+  #span-two {
+    grid-row: span 2;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px #666;
+  }
+  
+  button:hover {
+    /* background-color: #c0c0c0; */
+    transition: 0.1s; 
+}
+
+button:active{
+    background-color: #c0c0c0;
+    box-shadow: 0 2px #666;
+    /* transform: translateY(1px) */
+}
