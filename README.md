@@ -1,0 +1,1 @@
+# This is a Intermedate Calculator for our Dayily Calculation...Under process to be a Advance Calclutor
